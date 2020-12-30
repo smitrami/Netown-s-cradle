@@ -13,7 +13,7 @@ function setup() {
     var canvas = createCanvas(900, 400);
     engine = Engine.create();
     world = engine.world;
-    roof = new Roof(165, 80, 450, 40);
+    roof = new Roof(165, 80, 400, 40);
     pendulm1 = new Pendulm(240, 100, "red");
     sling1 = new Sling(pendulm1.body, { x: 240, y: 100 });
     pendulm2 = new Pendulm(300, 100, "red");
